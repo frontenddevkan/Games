@@ -1,0 +1,118 @@
+<!Doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel='stylesheet' href='css/reset.css'>
+	<link rel='stylesheet' href='css/normalize.css'>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<title>Simple Calculator</title>
+    <meta name="description" content="Calculator for kids">
+</head>
+	<body>
+	<header>
+		<img src="img/octopus3.jpg" width="50px" height"50px" class="logo" alt="Осьминожек улыбается">	
+		<nav>			
+					<ul>
+					<li> <a href="#">МЕЧТАЙ!</a></li>
+					<li> <a href="#">СТРЕМИСЬ!</a></li>
+					<li> <a href="#">ДОБИВАЙСЯ!</a></li>
+					<li> <a href="#">ПРАЗДНУЙ!</a></li>
+					</ul>
+	</nav>
+	
+	</header>
+	<main>
+		<section class='section-about'>
+					<div id="digital-clock">
+					</div>
+					<h1>Калькулятор для самопроверки</h1>
+					<p><input class="inpution" type="text" id='inpution' placeholder='Впиши пример вида 1+1*(4-9)'></p>
+					<p><button>Посчитать</button></p>
+					<div class="out"></div>
+					
+		</section>
+		<section class='section-with-logos'>
+			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='first-img'>
+			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='second-img'>
+			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='third-img'>
+		</section>
+		
+		<section class='section-three'>
+		<h2 class='section-three__title'>Будь <span class='section-three__span'>любознательным</span> и жадным до <span class='section-three__span'>знаний</span>!</h2>
+			<p class='section-three__text'>"Средняя школа похожа на Средиземье. Это волшебное путешествие, наполненное эльфами, гномами, хоббитами, королевами, королями и несколькими продажными волшебниками. Слово мудрецу: хорошо подбирайте себе попутчиков. Те, у кого хватит мужества и моральных устоев, чтобы выстоять. Те, кто использует свой блеск для губ, как волшебные палочки, когда сталкивается с опасностью. Таким образом, когда вы проходите через переполненные коридоры, изобилующие пагубными развлечениями, вы достигаете желаемого места назначения—или, по крайней мере, вашего следующего класса." – Кимберли Дана.</p>
+			<p class='section-three__text'>"Учись как можно больше, пока ты молод, потому что жизнь становится слишком занятой позже."– Дана Стюарт Скотт.</p>
+		
+		</section>
+		<section class='section-with-map'>
+		<h3 class='section-with-map__title'>Найди себя на карте</h3>
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A781c5d06a03eab43e4b6ed9b65d31e4f0d0a7ce8243e7d65492daee29c9ad20a&amp;source=constructor" width="900" height="400" frameborder="0"></iframe>
+		</section>
+		
+				
+	</main>
+	
+	<script>
+		document.querySelector('button').onclick = myClick;
+		
+			function myClick() {
+				let a = document.querySelector('.inpution').value;
+				document.querySelector('.out').innerHTML = eval(a);
+					if (/[a-z]/i.test(value)) {
+					return;
+					}
+			} 
+			
+			function getDateTime() {
+        let now     = new Date(); 
+        let year    = now.getFullYear();
+        let month   = now.getMonth()+1; 
+        let day     = now.getDate();
+        let hour    = now.getHours();
+        let minute  = now.getMinutes();
+        let second  = now.getSeconds(); 
+        if(month.toString().length == 1) {
+             month = '0'+month;
+        }
+        if(day.toString().length == 1) {
+             day = '0'+day;
+        }   
+        if(hour.toString().length == 1) {
+             hour = '0'+hour;
+        }
+        if(minute.toString().length == 1) {
+             minute = '0'+minute;
+        }
+        if(second.toString().length == 1) {
+             second = '0'+second;
+        }   
+        let dateTime = + hour+':'+minute+':'+second+'  &#x263A  '+day+'/'+month+'/'+year;   
+         return dateTime;
+    }
+   // example usage: realtime clock
+    setInterval(function(){
+        currentTime = getDateTime();
+        document.getElementById("digital-clock").innerHTML = currentTime;
+    }, 1000);
+			
+	
+	</script>
+	<footer>
+	<div class='line'></div>
+	<nav>
+		<ul>
+					<li> <a href="#">МЕЧТАЙ!</a></li>
+					<li> <a href="#">СТРЕМИСЬ!</a></li>
+					<li> <a href="#">ДОБИВАЙСЯ!</a></li>
+					<li> <a href="#">ПРАЗДНУЙ!</a></li>
+					</ul>
+	</nav>
+	<div class="wave"></div>
+	<div class="wave-two"></div>
+	<div class="wave-three"></div>
+	</footer>
+	
+</body>
+</html>
