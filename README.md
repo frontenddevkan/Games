@@ -1,4 +1,5 @@
 # simpleCalculator for kids
-## mathmatiks
-[website- click here ](https://frontenddevkan.github.io/simpleCalculator/)
+## mathmetiks
+
+[website - click here ](https://frontenddevkan.github.io/simpleCalculator/)
  
