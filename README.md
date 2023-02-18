@@ -1,5 +1,3 @@
-# simpleCalculator for kids
-## mathmetiks
 
-[website - click here ](https://frontenddevkan.github.io/simpleCalculator/)
+[Portal fot Apps - click here ](https://frontenddevkan.github.io/PortalForKids/)
  
