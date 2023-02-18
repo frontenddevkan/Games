@@ -153,9 +153,21 @@ color: #e2e8f2;
 	background: none;
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
+
+
 
 }
 
+.footer__img {
+	background-image: url(../img/github.png);
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 199rem;
+
+}
 
 
 
