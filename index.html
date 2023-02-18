@@ -4,115 +4,246 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel='stylesheet' href='css/reset.css'>
-	<link rel='stylesheet' href='css/normalize.css'>
-	<link rel="stylesheet" href="css/style.css">
-	
-	<title>Simple Calculator</title>
-    <meta name="description" content="Calculator for kids">
+    <link rel='stylesheet' href='./css/normalize.css'>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<title>Games and apps</title>
+    <meta name="description" content="Portal for kids">
 </head>
-	<body>
-	<header>
-		<img src="img/octopus3.jpg" width="50px" height"50px" class="logo" alt="Осьминожек улыбается">	
-		<nav>			
-					<ul>
-					<li> <a href="#">МЕЧТАЙ!</a></li>
-					<li> <a href="#">СТРЕМИСЬ!</a></li>
-					<li> <a href="#">ДОБИВАЙСЯ!</a></li>
-					<li> <a href="#">ПРАЗДНУЙ!</a></li>
-					</ul>
-	</nav>
-	
-	</header>
-	<main>
-		<section class='section-about'>
-					<div id="digital-clock">
-					</div>
-					<h1>Калькулятор для самопроверки</h1>
-					<p><input class="inpution" type="text" id='inpution' placeholder='Впиши пример вида 1+1*(4-9)'></p>
-					<p><button>Посчитать</button></p>
-					<div class="out"></div>
-					
-		</section>
-		<section class='section-with-logos'>
-			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='first-img'>
-			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='second-img'>
-			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='third-img'>
-		</section>
-		
-		<section class='section-three'>
-		<h2 class='section-three__title'>Будь <span class='section-three__span'>любознательным</span> и жадным до <span class='section-three__span'>знаний</span>!</h2>
-			<p class='section-three__text'>"Средняя школа похожа на Средиземье. Это волшебное путешествие, наполненное эльфами, гномами, хоббитами, королевами, королями и несколькими продажными волшебниками. Слово мудрецу: хорошо подбирайте себе попутчиков. Те, у кого хватит мужества и моральных устоев, чтобы выстоять. Те, кто использует свой блеск для губ, как волшебные палочки, когда сталкивается с опасностью. Таким образом, когда вы проходите через переполненные коридоры, изобилующие пагубными развлечениями, вы достигаете желаемого места назначения—или, по крайней мере, вашего следующего класса." – Кимберли Дана.</p>
-			<p class='section-three__text'>"Учись как можно больше, пока ты молод, потому что жизнь становится слишком занятой позже."– Дана Стюарт Скотт.</p>
-		
-		</section>
-		<section class='section-with-map'>
-		<h3 class='section-with-map__title'>Найди себя на карте</h3>
-		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A781c5d06a03eab43e4b6ed9b65d31e4f0d0a7ce8243e7d65492daee29c9ad20a&amp;source=constructor" width="900" height="400" frameborder="0"></iframe>
-		</section>
-		
-				
+<body>
+<header>
+	<div class="header">
+		<h1 class="header-title">Apps and games</h1>
+		<p class="header-subtitle">by Ekaterina frontenddevkan@gmail.com</p>
+	</div>
+	<div class="header-arrow"> </div>
+</header>
+
+<main class="main">
+	<div class="categories">
+		<div class="container">
+			<h2 class="categories__title">Categories</h2>
+				<div class="categories__cards-wrapper">
+			<!-- Project 1 - February-->
+
+				<div class="categories__card">
+						<img class="card__img" src="./img/rhomb.jpg" alt="принт из ромбиков">
+						<h3 class="card__title">Project-1</h3>
+						<p>About Project-1</p>
+
+				</div>
+
+				<!--  Progect 2  - March   -->
+
+				<div class="categories__card">
+					<img class="card__img" src="./img/rhomb.jpg" alt="принт из ромбиков">
+					<h3 class="card__title">Project-2</h3>
+					<p>About Project-2</p>
+
+				</div>
+
+				<!--  Progect 3 - April     -->
+
+				<div class="categories__card">
+					<img class="card__img" src="./img/rhomb.jpg" alt="принт из ромбиков">
+					<h3 class="card__title">Project-3</h3>
+					<p>About Project-3</p>
+
+				</div>
+
+
+				<!--  Progect 4 - May     -->
+
+				<div class="categories__card">
+					<img class="card__img" src="./img/rhomb.jpg" alt="принт из ромбиков">
+					<h3 class="card__title">Project-4</h3>
+					<p>About Project-4</p>
+
+				</div>
+
+				<!--  Progect 5 - June    -->
+
+				<div class="categories__card">
+					<img class="card__img" src="./img/rhomb.jpg" alt="принт из ромбиков">
+					<h3 class="card__title">Project-5</h3>
+					<p>About Project-5</p>
+
+				</div>
+		</div>
+
+
 	</main>
-	
-	<script>
-		document.querySelector('button').onclick = myClick;
-		
+
+
+	<footer>
+		<div class="footer">
+				<div class="footer__wrapper">
+					<div class="footer__name">
+						<p class="footer__text">Developed by Ekaterina</p>
+						<p class="footer__description">frontenddevkan@gmail.com</p>
+						<p class="footer__activity">HTML верстка и разработка сайтов</p>
+						<img src="./img/github.png" class="footer__github-img">
+
+						</div>
+					</div>
+
+				</div>
+
+		</div>
+
+
+
+	</footer>
+
+
+
+
+<!--  old code               -->
+
+<!-- <nav>
+		<ul>
+			<li> <a href="#">МЕЧТАЙ!</a></li>
+			<li> <a href="#">СТРЕМИСЬ!</a></li>
+			<li> <a href="#">ДОБИВАЙСЯ!</a></li>
+			<li> <a href="#">ПРАЗДНУЙ!</a></li>
+		</ul>
+	</nav>
+-->
+
+<!--
+		      CONNECTION SCRIPT FILE
+	-->
+	<!-- <script src="./javascript.js"> </script> -->
+
+
+	<!--
+		<script>
+
+	document.querySelector('button').onclick = myClick;
+
 			function myClick() {
 				let a = document.querySelector('.inpution').value;
 				document.querySelector('.out').innerHTML = eval(a);
 					if (/[a-z]/i.test(value)) {
 					return;
 					}
-			} 
-			
-			function getDateTime() {
-        let now     = new Date(); 
+			}
+		</script>
+		-->
+
+		<!--
+			TIME NOW
+
+			<script>
+
+		function getDateTime() {
+        let now     = new Date();
         let year    = now.getFullYear();
-        let month   = now.getMonth()+1; 
+        let month   = now.getMonth()+1;
         let day     = now.getDate();
+		let dayOfWeek = now.Day();
         let hour    = now.getHours();
         let minute  = now.getMinutes();
-        let second  = now.getSeconds(); 
+        let second  = now.getSeconds();
+		let milliSeconds = now.getMilliseconds();
+-------------------------------------------------
         if(month.toString().length == 1) {
-             month = '0'+month;
+             month = '0' + month;
         }
         if(day.toString().length == 1) {
-             day = '0'+day;
-        }   
+             day = '0' + day;
+        }
         if(hour.toString().length == 1) {
-             hour = '0'+hour;
+             hour = '0' + hour;
         }
         if(minute.toString().length == 1) {
-             minute = '0'+minute;
+             minute = '0' + minute;
         }
         if(second.toString().length == 1) {
-             second = '0'+second;
-        }   
-        let dateTime = + hour+':'+minute+':'+second+'  &#x263A  '+day+'/'+month+'/'+year;   
+             second = + second;
+        }
+		if(milliSeconds.toString().length == 2) {
+			milliSeconds = '0' + milliSeconds;
+		}
+		-------------------------------------------
+'if's' change to
+----------------------
+function addNullString (el) {
+ if(el.toString().length == 1) {
+             return el = '0'+el;
+        };
+return el;
+}
+------------
+        let dateTime = + hour+':'+minute+':'+second+':'+milliSeconds+' &#x263A '+day+'/'+month+'/'+year;
          return dateTime;
     }
-   // example usage: realtime clock
-    setInterval(function(){
+
+	// example usage: realtime clock
+
+  setInterval(function(){
         currentTime = getDateTime();
         document.getElementById("digital-clock").innerHTML = currentTime;
     }, 1000);
-			
-	
-	</script>
-	<footer>
-	<div class='line'></div>
-	<nav>
-		<ul>
-					<li> <a href="#">МЕЧТАЙ!</a></li>
-					<li> <a href="#">СТРЕМИСЬ!</a></li>
-					<li> <a href="#">ДОБИВАЙСЯ!</a></li>
-					<li> <a href="#">ПРАЗДНУЙ!</a></li>
-					</ul>
+
+</script>
+
+</div>
+	</div>
+	<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__item"></li>
+				<li class="menu__item"></li>
+				<li class="menu__item"></li>
+			</ul>
+		</nav>
+<aside>
+	<h2>Apps</h2>
+	<nav class="menu">
+		<ul class="menu__list">
+			<li class="menu__item"></li>
+			<li class="menu__item"></li>
+			<li class="menu__item"></li>
+		</ul>
 	</nav>
-	<div class="wave"></div>
-	<div class="wave-two"></div>
-	<div class="wave-three"></div>
-	</footer>
-	
+</aside>
+
+<section class='begining'>
+	<div id="digital-clock"></div>
+					<h2>Игры</h2>
+					<h2>Обучалки</h2>
+					<h3>Калькулятор для самопроверки простых математических примеров</h3>
+					<input class="inpution" type="text" id='inpution' placeholder='Впиши пример вида 1+1*(4-9)'>
+					<button>Посчитать</button>
+					<div class="out"></div>
+
+		</section>
+		<section class='section-with-logos'>
+			<h2>Раздел для малышей</h2>
+			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='first-img'>
+			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='second-img'>
+			<img src='img/octopus-section2.png' alt='цветной осьминожек' class='third-img'>
+		</section>
+
+		<section class='section-three'>
+		<h2 class='section-three__title'>Раздел для серьезных ребят (7 и больше лет)<span class='section-three__span'>любознательным</span> и жадным до <span class='section-three__span'>знаний</span>!</h2>
+			<p class='section-three__text'>"Средняя школа похожа на Средиземье. Это волшебное путешествие, наполненное эльфами, гномами, хоббитами, королевами, королями и несколькими продажными волшебниками. Слово мудрецу: хорошо подбирайте себе попутчиков. Те, у кого хватит мужества и моральных устоев, чтобы выстоять. Те, кто использует свой блеск для губ, как волшебные палочки, когда сталкивается с опасностью. Таким образом, когда вы проходите через переполненные коридоры, изобилующие пагубными развлечениями, вы достигаете желаемого места назначения—или, по крайней мере, вашего следующего класса." – Кимберли Дана.</p>
+			<p class='section-three__text'>"Учись как можно больше, пока ты молод, потому что жизнь становится слишком занятой позже."– Дана Стюарт Скотт.</p>
+
+		</section>
+		<section class='section-with-map'>
+		<h2 class='section-with-map__title'>Найди себя на карте</h2>
+
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A781c5d06a03eab43e4b6ed9b65d31e4f0d0a7ce8243e7d65492daee29c9ad20a&amp;source=constructor" width="900" height="400" frameborder="0"></iframe>
+		</section>
+-->
+
 </body>
+
 </html>
+
+
+<!-- this website use html, css -->
+
