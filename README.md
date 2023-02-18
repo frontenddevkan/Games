@@ -1,3 +1,3 @@
 
-[Portal for Apps - click here ](https://frontenddevkan.github.io/PortalForKids/)
+[Portal for Apps - click here ](https://frontenddevkan.github.io/PortalForApps/)
  
