@@ -148,15 +148,19 @@ color: #e2e8f2;
 
 }
 
-
 .footer__wrapper {
 	background: none;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 
+}
 
-
+.footer__name-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .footer__img {
