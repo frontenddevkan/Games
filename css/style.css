@@ -162,6 +162,7 @@ color: #e2e8f2;
 	justify-content: space-around;
 	align-items: center;
 }
+
 .footer__img {
 	background-image: url(../img/github.png);
 	width: 100px;
