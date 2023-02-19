@@ -165,11 +165,11 @@ color: #e2e8f2;
 
 .footer__img {
 	background-image: url(../img/github.png);
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	height: 80px;
 	background-size: cover;
 	background-position: center;
-	border-radius: 66% 44%;
+	border-radius: 120px 70px;
 
 }
 
