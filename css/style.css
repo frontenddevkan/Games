@@ -31,6 +31,7 @@
 
 html {
 	scroll-behavior: smooth;
+
 }
 
 body {
@@ -150,7 +151,7 @@ body {
 	}
 
 
-.categories__card-link {
+.categories__card-link, a {
 	text-decoration: none;
 	display: block;
 
@@ -161,10 +162,10 @@ body {
 
 }
 
-.categories__card-link:hover {
+.categories__card-link:hover, a:hover {
 	font-weight: 600;
 	color: rgb(80, 9, 69);
-	font-size: 18px;
+	font-size: 14px;
 }
 
 .categories__card:hover {
