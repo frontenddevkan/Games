@@ -1,4 +1,8 @@
 [Portal for Apps - click here ](https://frontenddevkan.github.io/PortalForApps/)
 
-THIS PROJECT USE HTML, CSS, FLEX, GITHUB.
 
+##### This project use  
+#### - html, css,   
+#### - flex,  
+#### - github,    
+### - responsive web-design, 
