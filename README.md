@@ -5,4 +5,4 @@
 #### - html, css,   
 #### - flex,  
 #### - github,    
-### - responsive web-design, 
+### - adaptive web-design, 
